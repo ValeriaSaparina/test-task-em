@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.login.LoginFragment"
+        android:label="LoginFragment">
+        <action
+            android:id="@+id/action_loginFragment_to_login2Fragment"
+            app:destination="@id/login2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login2Fragment"
+        android:name="com.example.login2.Login2Fragment"
+        android:label="Login2Fragment">
+        <action
+            android:id="@+id/action_login2Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_login2Fragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.main.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_vacancyDetailsFragment"
+            app:destination="@id/vacancyDetailsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_relevantVacanciesFragment"
+            app:destination="@id/relevantVacanciesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_respondBottomSheet"
+            app:destination="@id/respondBottomSheet" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.favorite.FavoriteFragment"
+        android:label="FavoriteFragment">
+        <action
+            android:id="@+id/action_favoriteFragment_to_vacancyDetailsFragment"
+            app:destination="@id/vacancyDetailsFragment" />
+        <action
+            android:id="@+id/action_favoriteFragment_to_respondBottomSheet"
+            app:destination="@id/respondBottomSheet" />
+    </fragment>
+    <fragment
+        android:id="@+id/vacancyDetailsFragment"
+        android:name="com.example.vacancydetails.VacancyDetailsFragment"
+        android:label="VacancyDetailsFragment">
+        <action
+            android:id="@+id/action_vacancyDetailsFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_vacancyDetailsFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_vacancyDetailsFragment_to_respondBottomSheet"
+            app:destination="@id/respondBottomSheet" />
+    </fragment>
+    <fragment
+        android:id="@+id/relevantVacanciesFragment"
+        android:name="com.example.relevantvacancies.RelevantVacanciesFragment"
+        android:label="RelevantVacanciesFragment">
+        <action
+            android:id="@+id/action_relevantVacanciesFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_relevantVacanciesFragment_to_vacancyDetailsFragment"
+            app:destination="@id/vacancyDetailsFragment" />
+        <action
+            android:id="@+id/action_relevantVacanciesFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_relevantVacanciesFragment_to_respondBottomSheet"
+            app:destination="@id/respondBottomSheet" />
+    </fragment>
+    <dialog
+        android:id="@+id/respondBottomSheet"
+        android:name="com.example.respond.RespondBottomSheet"
+        android:label="RespondBottomSheet">
+        <action
+            android:id="@+id/action_respondBottomSheet_to_coverLetterDialog"
+            app:destination="@id/coverLetterDialog" />
+    </dialog>
+    <dialog
+        android:id="@+id/coverLetterDialog"
+        android:name="com.example.coverletter.CoverLetterDialog"
+        android:label="CoverLetterDialog" />
+    <fragment android:id="@+id/placeholder" />
+</navigation>
