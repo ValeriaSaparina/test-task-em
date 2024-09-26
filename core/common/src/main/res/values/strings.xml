@@ -1,0 +1,66 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TestTask</string>
+
+    <string name="watched_by">Сейчас просматривает %1$d %2$s</string>
+    <string name="one_person">человек</string>
+    <string name="few_people">человека</string>
+    <string name="many_people">человек</string>
+
+    <string name="published">Опубликовано %1$d %2$s</string>
+
+    <string name="published_january">января</string>
+    <string name="published_february">февраля</string>
+    <string name="published_march">марта</string>
+    <string name="published_april">апреля</string>
+    <string name="published_may">мая</string>
+    <string name="published_june">июня</string>
+    <string name="published_july">июля</string>
+    <string name="published_august">августа</string>
+    <string name="published_september">сентября</string>
+    <string name="published_october">октября</string>
+    <string name="published_november">ноября</string>
+    <string name="published_december">декабря</string>
+    <string name="one_vacancy">%1$d вакансия</string>
+    <string name="few_vacancies">%1$d вакансии</string>
+    <string name="many_vacancies">%1$d вакансий</string>
+    <string name="respond">Откликнуться</string>
+
+    <string name="lookingNumber">%1$d %2$s сейчас %3$s</string>
+
+    <string name="one_look">смотрит</string>
+    <string name="many_look">смотрят</string>
+    <string name="responsibilities_title">Ваши задачи</string>
+    <string name="questions_title">Задайте вопрос работодателю</string>
+    <string name="questions_subtitle">Он получит его с откликом на вакансию</string>
+    <string name="responsesNumber">%1$d %2$s уже %3$s</string>
+    <string name="one_responded">откликнулся</string>
+    <string name="many_responded">откликнулись</string>
+
+    <string name="experience">Требуемый опыт: %1$s</string>
+    <string name="from">от</string>
+    <string name="to">до</string>
+    <string name="invalid_email">Вы ввели неверный e-mail</string>
+    <string name="send_code">Отправили код на %1$s</string>
+    <string name="relevant">По соответствию</string>
+    <string name="position_relevant_vacancies">Должность по подходящим вакансиям</string>
+    <string name="cover_letter">Ваше сопроводительное письмо</string>
+    <string name="code_subtitle">Напишите его, чтобы подтвердить, что это вы, а не кто-то другой входит в личный кабинет</string>
+    <string name="submit">Подтвердить</string>
+    <string name="more_vacancies">Еще %1$s вакансии</string>
+    <string name="icon_of_the_offer">icon of the offer</string>
+    <string name="rise_resume">Поднять резюме в поиске</string>
+    <string name="rise">Поднять</string>
+    <string name="vacancies_for_you_title">Вакансии для вас</string>
+    <string name="position_key_words">Должность, ключевые слова</string>
+    <string name="filter">filter</string>
+    <string name="is_favorite_icon">is favorite icon</string>
+    <string name="resume_for_respond_title">Резюме для отклика</string>
+    <string name="add_cover_letter_title">Добавить сопроводительное</string>
+
+    <string name="search">Поиск</string>
+    <string name="favorites">Избранное</string>
+    <string name="responds">Отклики</string>
+    <string name="messages">Сообщения</string>
+    <string name="profile">Профиль</string>
+
+</resources>
