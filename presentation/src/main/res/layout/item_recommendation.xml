@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card"
+    android:layout_width="132dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/recommendation_ic"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/icon_of_the_offer" />
+
+    <TextView
+        android:id="@+id/recommendation_title_tv"
+        style="@style/Title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rise_resume" />
+
+    <TextView
+        android:id="@+id/recommendation_btn"
+        style="@style/Text1.Vacancies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rise"
+        android:layout_marginBottom="3dp"
+        android:visibility="gone" />
+</LinearLayout>
