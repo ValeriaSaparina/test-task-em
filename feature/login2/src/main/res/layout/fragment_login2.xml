@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/email_tv"
+        style="@style/Title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="130dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/Title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/code_subtitle" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/first_number_et"
+            style="@style/Input_code"
+            android:layout_marginStart="0dp"
+            android:focusedByDefault="true" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/second_number_et"
+            style="@style/Input_code" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/third_number_et"
+            style="@style/Input_code" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fourth_number_et"
+            style="@style/Input_code" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_btn"
+        style="@style/Button_text2.Button_continue_disable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/submit" />
+
+</LinearLayout>
