@@ -43,6 +43,22 @@ android {
 
 dependencies {
 
+    implementation(project(":core:base"))
+    implementation(project(":core:common"))
+    implementation(project(":core:di"))
+    implementation(project(":core:navigation"))
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":feature:coverLetter"))
+    implementation(project(":feature:favoriteVacancies"))
+    implementation(project(":feature:login"))
+    implementation(project(":feature:login2"))
+    implementation(project(":feature:main"))
+    implementation(project(":feature:relevantVacancies"))
+    implementation(project(":feature:respond"))
+    implementation(project(":feature:vacancyDetails"))
+    implementation(project(":presentation"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
