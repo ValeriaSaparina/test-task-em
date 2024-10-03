@@ -11,8 +11,8 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.base.base.BaseFragment
 import com.example.base.util.Constants.EMAIL_ID
 import com.example.di.coreComponent
-import com.example.login.di.DaggerLogin2Component
 import com.example.login2.databinding.FragmentLogin2Binding
+import com.example.login2.di.DaggerLogin2Component
 import com.example.presentation.viewmodel.Login2ViewModel
 import javax.inject.Inject
 import com.example.common.R as baseR

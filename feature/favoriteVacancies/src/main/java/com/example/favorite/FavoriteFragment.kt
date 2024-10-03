@@ -13,7 +13,7 @@ import com.example.base.base.BaseFragment
 import com.example.base.util.Constants.VACANCY_ID
 import com.example.di.coreComponent
 import com.example.favorite.databinding.FragmentFavoriteBinding
-import com.example.login.di.DaggerFavoriteComponent
+import com.example.favorite.di.DaggerFavoriteComponent
 import com.example.presentation.adapter.FavoriteAdapter
 import com.example.presentation.model.VacancyUiModel
 import com.example.presentation.viewmodel.FavoriteViewModel

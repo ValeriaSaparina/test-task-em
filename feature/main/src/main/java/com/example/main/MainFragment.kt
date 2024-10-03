@@ -17,10 +17,10 @@ import com.example.base.base.BaseFragment
 import com.example.base.util.Constants.VACANCY_ID
 import com.example.base.util.Constants.VACANCY_NAME
 import com.example.di.coreComponent
-import com.example.login.di.DaggerMainComponent
 import com.example.main.adapter.MainAdapter
 import com.example.main.adapter.RecommendationAdapter
 import com.example.main.databinding.FragmentMainBinding
+import com.example.main.di.DaggerMainComponent
 import com.example.presentation.item.BottomButtonItem
 import com.example.presentation.item.HorizontalItem
 import com.example.presentation.item.LoadingBarItem

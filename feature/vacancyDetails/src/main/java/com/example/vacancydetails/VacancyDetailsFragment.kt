@@ -15,13 +15,13 @@ import com.example.base.base.BaseFragment
 import com.example.base.util.Constants
 import com.example.base.util.Constants.VACANCY_ID
 import com.example.di.coreComponent
-import com.example.login.di.DaggerVacancyDetailsComponent
 import com.example.presentation.item.BottomButtonItem
 import com.example.presentation.item.ContentItem
 import com.example.presentation.item.LoadingBarItem
 import com.example.presentation.model.VacancyUiModel
 import com.example.presentation.viewmodel.VacancyDetailsViewModel
 import com.example.vacancydetails.databinding.FragmentVacancyDetailsBinding
+import com.example.vacancydetails.di.DaggerVacancyDetailsComponent
 import javax.inject.Inject
 import com.example.common.R as baseR
 import com.example.navigation.R as navR
